@@ -1,0 +1,18 @@
+# locally
+mkdir my-site && cd my-site
+git init
+cat > index.html <<'HTML'
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Site</title>
+    <style>body{font:16px/1.5 system-ui;margin:40px auto;max-width:720px;padding:0 16px}</style>
+  </head>
+  <body>
+    <h1>Hello, world 👋</h1>
+    <p>Welcome to my GitHub Pages site.</p>
+  </body>
+</html>
+HTML
+
+
